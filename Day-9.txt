@@ -1,0 +1,51 @@
+Day-9
+
+22/10/2025
+
+Switch Case:
+
+if several options are available then it is not recommended to use if-else we should go for switch statement. because it improves readability of the code.
+
+
+Syntax:
+
+switch(ch){
+case 1:
+action-1;
+break;
+case 2:
+action-2;
+break;
+case 3:
+action-3;
+break;
+------
+------
+case n:
+action-n;
+break;
+default:
+}
+
+
+Note:
+
+until 1.4 version the allow types for the switch argument are byte, short, int, char but from 1.5 version on wards corresponding wrapper classes (Byte, Short, Character, Integer)
+
+
+
+ATM Operations:
+
+1. deposit :- must be multiples of 100, >500, update the balance
+2. withdraw :- >500, multiples of 100, >balance insufficient funds, else update balance
+3. check balance :- o conditions
+4. exit :-
+
+
+
+
+
+
+
+
+
